@@ -298,5 +298,5 @@ Now we will include the translations script for javascript, it can be included i
 Once you have added the script you can use it in any text you want to translate from javascript for example in an external .js file you can call the translation as follows.
 
 ```javascript
-alert(lang.t('alerta de prueba'));
+alert(`${lang.t('alerta de prueba')}`);
 ```
