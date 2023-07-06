@@ -146,7 +146,7 @@ Ahora incluiremos el script de traducciones para javascript, puede incluirse en 
 Una vez que ya tengas agregado el script podrás utilizarlo en cualquier texto que desees traducir de javascript por ejemplo en un archivo externo .js podrias llamar a la traducción de la siguiente forma.
 
 ```javascript
-alert(lang.t('alerta de prueba'));
+alert(`${lang.t('alerta de prueba')}`);
 ```
 
 ------------
